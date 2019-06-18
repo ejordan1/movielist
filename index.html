@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <script src = "js/jquery-3.4.1.js">
+  </script>
+  <script src = "js/scripts.js">
+  </script>
+
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
+
+
+  <title>movies</title>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="movies">
+          <div class = "movie" id="movie1">
+            <div class="card card-image-overlay" id = "cardStyling1">
+              <div class="card-header">
+                Toy Story 4
+              </div>
+              <div class="card-body movieBody" id = "movieBody1">
+
+              </div>
+            </div>
+          </div>
+
+          <div class = "movie" id="movie2">
+            <div class="card card-image-overlay" id = "cardStyling2">
+              <div class="card-header">
+                Toy Story 4
+              </div>
+              <div class="card-body movieBody" id = "movieBody2">
+
+              </div>
+            </div>
+          </div>
+
+          <div class = "movie" id="movie3">
+            <div class="card card-image-overlay" id = "cardStyling3">
+              <div class="card-header">
+                Toy Story 4
+              </div>
+              <div class="card-body movieBody" id = "movieBody3">
+
+              </div>
+            </div>
+          </div>
+
+          <div class = "movie" id="movie4">
+            <div class="card card-image-overlay" id = "cardStyling4">
+              <div class="card-header">
+                Toy Story 4
+              </div>
+              <div class="card-body movieBody" id = "movieBody4">
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-md-6" id = "ticketInfo">
+
+      </div>
+    </div>
+    <div class="hiddenForm hidden">
+      <form class="hiddenForm" action="index.html" method="post">
+        <label for="age">Age?</label>
+        <input type="checkbox" name="age" value="false">0-64<br>
+        <input type="checkbox" name="age" value="true">64+
+
+        <label for="age">Time?</label>
+        <input type="checkbox" name="time" value="false">2:00 P.M.<br>
+        <input type="checkbox" name="time" value="true">7:00 P.M
+        <button type="submit" name="button">Buy Tickets</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

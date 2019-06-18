@@ -1,0 +1,29 @@
+.card-image-overlay{
+  color: white;
+}
+
+.card-header{
+  text-align: center;
+  text-shadow: 2px 2px 2px black;
+  font-size: 20px;
+}
+
+.hidden{
+  display: none;
+}
+
+
+
+#cardStyling1{
+  background: url("https://i1.wp.com/metro.co.uk/wp-content/uploads/2019/03/toystory4-poster-83c7.jpg?quality=90&strip=all&zoom=1&resize=644%2C953&ssl=1") no-repeat scroll center top transparent;
+}
+
+#cardStyling2{
+  background: url("https://i1.wp.com/metro.co.uk/wp-content/uploads/2019/03/toystory4-poster-83c7.jpg?quality=90&strip=all&zoom=1&resize=644%2C953&ssl=1") no-repeat scroll center top transparent;
+}
+#cardStyling3{
+  background: url("https://i1.wp.com/metro.co.uk/wp-content/uploads/2019/03/toystory4-poster-83c7.jpg?quality=90&strip=all&zoom=1&resize=644%2C953&ssl=1") no-repeat scroll center top transparent;
+}
+#cardStyling4{
+  background: url("https://i1.wp.com/metro.co.uk/wp-content/uploads/2019/03/toystory4-poster-83c7.jpg?quality=90&strip=all&zoom=1&resize=644%2C953&ssl=1") no-repeat scroll center top transparent;
+}
